@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Gallery</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/gallery.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span>&lt;My Portfolio&gt;</span>
+    </div>
+    <a href="index.html" class="back-btn">← Back</a>
+  </nav>
+
+
+  <div class="gallery-page">
+
+    <div class="section-header">
+      <p class="section-label">// THROUGH MY LENS</p>
+      <h2 class="section-title">Mobile Photography</h2>
+      <p class="section-subtitle">Photos and videos captured with just a phone.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterGallery('all')">All</button>
+      <button class="filter-btn" onclick="filterGallery('photo')">Photos</button>
+      <button class="filter-btn" onclick="filterGallery('video')">Videos</button>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231026_111419_089.jpg" alt="Photo 1" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231109_130447_533.jpg" alt="Photo 2" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231109_130508_630.jpg" alt="Photo 3" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231109_173409_094.jpg" alt="Photo 4" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231228_083316_686.jpg" alt="Photo 5" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/IMG_20231228_165248_809.jpg" alt="Photo 6" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-7.jpg" alt="Photo 7" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-8.jpg" alt="Photo 8" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-9.jpg" alt="Photo 9" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-10.jpg" alt="Photo 10" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-11.jpg" alt="Photo 11" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-12.jpg" alt="Photo 12" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-13.jpg" alt="Photo 13" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-14.jpg" alt="Photo 14" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-15.jpg" alt="Photo 15" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-16.jpg" alt="Photo 16" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-17.jpg" alt="Photo 17" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="photo">
+        <img src="assets/images/photo-18.jpg" alt="Photo 18" class="photo-box" />
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-1.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-2.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-3.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-4.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-5.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-6.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-7.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-8.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+      <div class="gallery-item" data-type="video">
+        <video src="assets/videos/video-9.mp4" class="video-box" controls></video>
+        <div class="caption"><p>Add your caption here</p></div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">&lt;/My Portfolio&gt;</p>
+      <p class="footer-msg">Built with HTML, CSS &amp; AI Prompts · Still learning, always growing.</p>
+      <p class="footer-copy">© 2026 Keith Justine S. Maunahan · 3rd Year IT Student</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/gallery.js"></script>
+
+</body>
+</html>
